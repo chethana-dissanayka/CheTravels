@@ -22,12 +22,10 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
                         <Link to='/tours'><li onClick={()=>setShowMenu(false)}>Tours</li></Link>
                         <Link to='/gallery'><li onClick={()=>setShowMenu(false)}>Gallery</li></Link>
                         <Link to='/contact'><li onClick={()=>setShowMenu(false)}>Contact</li></Link>
+                           <Link to='/advisors'><li onClick={()=>setShowMenu(false)}>Trip Advisors</li></Link>
                         <Link to='#'><button onClick={()=>setShowMenu(false)} className='bg-red-500 text-white px-4 py-1 rounded-md font-semibold'>Book Now</button></Link>
                     </ul>
                 </nav>
-            </div>
-            <div>
-                <h1>Made with ❤️ by Rohit</h1>
             </div>
         </div>
     )
